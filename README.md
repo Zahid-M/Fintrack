@@ -1,6 +1,7 @@
 # Fintrack
 FinTrack is a financial tracking tool built for HCP.  
 The goal is to help users manage expenses, visualize spending, and learn basic financial literacy.
+Design Doc: https://docs.google.com/document/d/1k9O3kZutrK01CDcj7YHmQm348ES5ga0-YMlCD79P77A/edit?tab=t.0#heading=h.rofi4avkroij
 
 ---
 
