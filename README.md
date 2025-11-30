@@ -25,3 +25,24 @@ The goal is to help users manage expenses, visualize spending, and learn basic f
 ### Frontend
 - Framework: (TBD)
 - Design System: https://m3.material.io/
+
+### Backend
+- API's for data retrieval
+- Language/Framework: (TBD)
+
+### Database
+PostgreSQL
+Justification: Having a table to represent our data is the most appropriate choice for our project, as the data we’re storing is simple, making any dynamic storing of data unnecessary and complicated.
+
+### CI
+- Version Control: GitHub
+- Automated Testing: (TBD)
+- Automated Builds: Jenkins + Gradle
+
+### CD
+- Infrastructure as Code (IaC): Define infrastructure using code (e.g., Terraform or AWS CloudFormation) to ensure consistent environments.
+- Artifact Creation: Docker images
+- Deployment Scripting: Ansible, Kubernetes, or Terraform
+- Pipeline Orchestration: Tekton Pipelines
+- Blue-Green Deployments: Implement blue-green deployments to minimize downtime during releases.
+
