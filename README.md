@@ -1,5 +1,8 @@
+# Fintrack
 FinTrack is a financial tracking tool built for HCP.  
 The goal is to help users manage expenses, visualize spending, and learn basic financial literacy.
+
+---
 
 ## Features (MVP)
 (below are subject to change)
@@ -9,16 +12,22 @@ The goal is to help users manage expenses, visualize spending, and learn basic f
 - User accounts for RSO leaders  
 - Secure data storage using PostgreSQL 
 
+---
+
 ## Post MVP Goals
 - Advanced data visualizations  
 - Expense forecasting  
 - Role-based access for multiple users  
 - Mobile-friendly dashboard 
 
+---
+
 ## Problems being solved
 - Keep records of finances
 - Track funding from multiple sources
 - Understand spending patterns
+
+---
 
 ## Tech Stack
 
@@ -34,12 +43,12 @@ The goal is to help users manage expenses, visualize spending, and learn basic f
 PostgreSQL
 Justification: Having a table to represent our data is the most appropriate choice for our project, as the data we’re storing is simple, making any dynamic storing of data unnecessary and complicated.
 
-### CI
+### CI (Continious Integration)
 - Version Control: GitHub
 - Automated Testing: (TBD)
 - Automated Builds: Jenkins + Gradle
 
-### CD
+### CD (Continious Development)
 - Infrastructure as Code (IaC): Define infrastructure using code (e.g., Terraform or AWS CloudFormation) to ensure consistent environments.
 - Artifact Creation: Docker images
 - Deployment Scripting: Ansible, Kubernetes, or Terraform
